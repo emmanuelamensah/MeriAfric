@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meridian Africa Consult</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/MACLOGO2.png"alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Team</h1>
+    </section>
+
+
+
+
+<!-- teams -->
+
+<section class="teams">
+    <h1>Team</h1>
+    <div class="row">
+        <div class="teams-col">
+            <img src="./img/cyril.jfif">
+            <h3>Mr. Cyril Agyeman Mensah-Founder & CEO<br>  </h3>
+            <p>Cyril has been consulting since 2010 and has grown from individual consulting through NGO to Government consulting. Currently he has added to the bucket list Private company consulting. He has a high peer rating on business ethics and integrity. He has twelve years experience as a business executive and has been in various senior positions in various companies. He holds an M.B.A in Finance, a Bachelors in accounting, a certificate in International Organizational Management and a certificate in Security Intelligence and Forensics Studies</p>
+        </div>
+        <div class="teams-col">
+            <img src="./img/Gloria.jpg">
+            <h3>Dr. Gloria Nimo-Director of Emerging Market, US East</h3>
+            <p>Dr. Nimo is a Nurse Practitioner  and has DNP, RN, BSN, MSN, GNP, ANP-BC, licenses and qualifications. She is a Practitioner in the Department of Emergency Medicine at The Mount Sinai Hospital, New York City. In addition, Dr. Gloria Nimo has nine years of experience in general pediatrics. She graduated cum laude from the College of New Rochelle and earned a graduate degree in nursing from Fairleigh Dickinson University.</p>
+        </div>
+        <div class="teams-col">
+            <img src="./img/bautner.jfif">
+            <h3>Mr. Michael Bautner-Director of Emerging Markets, US Central</h3>
+            <p>Since 2013, Michael Bautner has been in the sales and persuasion industry. He has a passion to learn, discover, and share his knowledge with others. Michael’s first experience in persuasion and teaching came when he served a religious mission across Ghana from 2013-15. Following his return to the States, he became a perennial salesman for Vivint Smart Home, while also being enrolled at Utah State University in Logan, UT, where he developed his startup, data-science, and marketing skills. After earning his degree in Marketing and Entrepreneurship, Michael was hired by General Mills.</p>
+        </div>
+    </div>
+</section>
+
+   <!-- more teams -->
+
+   <section class="moreteams">
+    <h1>Even More Team Members</h1>
+    <div class="row">
+        <div class="moreteams-col">
+            <img src="./img/karen now.jpg">
+            <h3>Mrs. Karen Dadzie-Chief Operating Officer</h3>
+            <p></p>
+        </div>
+        <div class="moreteams-col">
+            <img src="./img/fred asante.jpg">
+            <h3>Mr. Frederick Ansah-Director of Finance</h3>
+            <p></p>
+        </div>
+        <div class="moreteams-col">
+            <img src="./img/emmanuel.JPG">
+            <h3>Mr. Emmanuel Adu Mensah-IT Specialist/WebMaster</h3>
+            <p></p>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<!-- footer -->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At MAC we partner with individuals and organizations across private, public and NGO sectors to capture the startup and growth opportunities in sub-saharan Africa</p>
+    <div class="icons">
+        <i class="fa-fa-facebook"></i>
+        <i class="fa-fa-twitter"></i>
+        <i class="fa-fa-instagram"></i>
+        <i class="fa-fa-linkedin"></i>
+    </div>
+    <p>All rights reserved</p>
+</section>
+
+    <!----- JavaScript for toggle menu ----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

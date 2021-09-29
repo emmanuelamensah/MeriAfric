@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meridian Africa Consult</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/MACLOGO2.png"alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    </section>
+
+
+<!-- services -->
+
+<section class="services">
+    <h1>Services We Offer</h1>
+    <p>Africa has been the destination of global business opportunity. We help businesses that are doing well to  transition into global enterprises by having physical African presence. Whether you want to research into your possibilities or advance your ideas, MAC is with you every step of the way. We excel in the business of organizational potential, and believe in its power to shape strategic, organizational, economic, societal change, and beyond.</p>
+
+    <div class="row">
+        <div class="services-col">
+            <h3>Biopharmaceuticals</h3>
+            <p>A brilliant prospect for Pharmaceutical companies and patients in a Value-Based Health Care World.</p>
+        </div>
+        <div class="services-col">
+            <h3>Construction</h3>
+            <p>If you are trying to invest in the already deficit-hit real estate business, you are with the right team.</p>
+        </div>
+        <div class="services-col">
+            <h3>Financial Institution</h3>
+            <p>There are great prospects in Africa regarding financial opportunities.</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- other services -->
+
+<section class="otherservices">
+    <h1>Other Services</h1>
+    <p>We want your business to flourish, and we know that our success depends on your success.</p>
+    <div class="row">
+        <div class="otherservices-col">
+            <img src="./img/education.jpg">
+            <h3>Education</h3>
+            <p>Are you into education? Do you own a school? Are you planning on starting one? Do you want a branch of your school in Africa? There is no doubt that the strength of tomorrow’s leaders is found in today’s training.</p>
+        </div>
+        <div class="otherservices-col">
+            <img src="./img/healthcare.jpg">
+            <h3>Healthcare</h3>
+            <p>Africa’s healthcare needs are humongous. Some countries still battle with basic common yet killer diseases that have not seen any improvement and cure. Are you into a Health System with an integrated health care system providing exceptional medical care to local and global communities?</p>
+        </div>
+        <div class="otherservices-col">
+            <img src="./img/media and entertainment.jpg">
+            <h3>Entertainment</h3>
+            <p>There are great prospects in Africa regarding media and entertainment. We have experts who can share potentials of growth with you, run research for you, help you startup and complete your presence in Africa and become sustainable and profitable.</p>
+        </div>
+    </div>
+</section>
+
+   <!-- more services -->
+
+   <section class="moreservices">
+    <h1>More Services</h1>
+    <p>We do more than just the <b>above</b></p>
+    <div class="row">
+        <div class="moreservices-col">
+            <img src="./img/transportation.png">
+            <h3>Transportation</h3>
+            <p>There are great prospects in Africa regarding eTransportation and logistics. We have experts who can share potentials of growth with you, run research for you, help you startup and complete your presence in Africa and become sustainable and profitable</p>
+        </div>
+        <div class="moreservices-col">
+            <img src="./img/tourism.jfif">
+            <h3>Tourism</h3>
+            <p>There are great prospects in Africa regarding Travel and Tourism. We have experts who can share potentials of growth with you, run research for you, help you startup and complete your presence in Africa and become sustainable and profitable.</p>
+        </div>
+        <div class="moreservices-col">
+            <img src="./img/Energy and Power.jpg">
+            <h3>Power and Utilities</h3>
+            <p>There are great prospects in Africa regarding power & utilities. There is a huge power deficit in many African countries. We have experts who can share potentials of growth with you, run research for you, help you startup and complete your presence in Africa and become sustainable and profitable</p>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<!-- footer -->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At MAC we partner with individuals and organizations across private, public and NGO sectors to capture the startup and growth opportunities in sub-saharan Africa</p>
+    <div class="icons">
+        <i class="fa-fa-facebook"></i>
+        <i class="fa-fa-twitter"></i>
+        <i class="fa-fa-instagram"></i>
+        <i class="fa-fa-linkedin"></i>
+    </div>
+    <p>All rights reserved</p>
+</section>
+
+    <!----- JavaScript for toggle menu ----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

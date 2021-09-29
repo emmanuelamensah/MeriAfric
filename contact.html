@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meridian Africa Consult</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/MACLOGO2.png"alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!-- contact -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.724863692305!2d-0.18857548587448675!3d5.607595734689151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b080f2e0643%3A0xc91610ac25710636!2s8%20Sir.%20Arku%20Korsah%20Rd%2C%20Accra!5e0!3m2!1sen!2sgh!4v1632923585123!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-fa-home"></i>
+                <span>
+                    <h5>8 Sir. Arku Korsah Rd</h5>
+                    <p>Tema Community 8</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-fa-phone"></i>
+                <span>
+                    <h5>+233501310587</h5>
+                    <p>Mondays to Fridays, 9am to 5pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-fa-envelope-o"></i>
+                <span>
+                    <h5>meriafricaconsult@gmail.com</h5>
+                    <p>Email Us today</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+
+            <form action="form-handler.php" method="POST">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email Adrress" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8" name="message" placeholder="message"></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At MAC we partner with individuals and organizations across private, public and NGO sectors to capture the startup and growth opportunities in sub-saharan Africa</p>
+    <div class="icons">
+        <i class="fa-fa-facebook"></i>
+        <i class="fa-fa-twitter"></i>
+        <i class="fa-fa-instagram"></i>
+        <i class="fa-fa-linkedin"></i>
+    </div>
+    <p>All rights reserved</p>
+</section>
+
+    <!----- JavaScript for toggle menu ----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
